@@ -29,13 +29,17 @@ public class OneD6_small_index_arr {
 				 max = arr[i];
 			}
 		}
+		
+		
 		for (i = 0; i < index; i++) {
 			if (arr[i] == max) {
 				temp = i;
 				break;
 			}
 		}
-		System.out.println(temp);
+		
+		System.out.println("Row no. "+temp);
+		
 	}
 
 }

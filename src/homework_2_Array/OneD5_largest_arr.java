@@ -24,7 +24,7 @@ public class OneD5_largest_arr {
 		
 		double max =arr[0];
 		for ( i = 0; i < index; i++) {
-			if (arr[i]>max) {
+			if (arr[i]>max) {  //if (arr[i] < max) then minimum
 				 max = arr[i];
 			}
 
